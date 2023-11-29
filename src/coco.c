@@ -8,9 +8,9 @@
 #include "box.h"
 #include "demo.h"
 
-char *coco_classes[] = {"person","bicycle","car","motorcycle","airplane","bus"};
+char *coco_classes[] = {"person", "pencil", "eraser", "pencil sharpener", "scissors", "cell phone", "computer", "cautin", "multimeter", "cable", "tin"};
 
-int coco_ids[] = {1,2,3,4,5,6,7,8,9,10};
+int coco_ids[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 
 void train_coco(char *cfgfile, char *weightfile)
 {
